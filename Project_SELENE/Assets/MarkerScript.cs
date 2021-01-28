@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MarkerScript : MonoBehaviour
 {
+    public Transform userPos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,6 @@ public class MarkerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = new Vector3(userPos.position.x, 0, userPos.position.z);
     }
 }

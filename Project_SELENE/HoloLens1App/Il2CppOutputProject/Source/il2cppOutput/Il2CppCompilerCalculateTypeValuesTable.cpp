@@ -3334,12 +3334,13 @@ IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5114[7];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5116[19];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5118[18];
 IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5119[1];
-IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5123[8];
-IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5125[19];
-IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5127[3];
-IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5128[4];
+IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5122[1];
+IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5124[8];
+IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5126[19];
+IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5128[3];
+IL2CPP_EXTERN_C_CONST int32_t g_FieldOffsetTable5129[4];
 
-IL2CPP_EXTERN_C_CONST int32_t* g_FieldOffsetTable[5130] = 
+IL2CPP_EXTERN_C_CONST int32_t* g_FieldOffsetTable[5131] = 
 {
 	NULL,
 	g_FieldOffsetTable1,
@@ -8463,13 +8464,14 @@ IL2CPP_EXTERN_C_CONST int32_t* g_FieldOffsetTable[5130] =
 	g_FieldOffsetTable5119,
 	NULL,
 	NULL,
+	g_FieldOffsetTable5122,
 	NULL,
-	g_FieldOffsetTable5123,
+	g_FieldOffsetTable5124,
 	NULL,
-	g_FieldOffsetTable5125,
+	g_FieldOffsetTable5126,
 	NULL,
-	g_FieldOffsetTable5127,
 	g_FieldOffsetTable5128,
+	g_FieldOffsetTable5129,
 	NULL,
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize0;
@@ -13602,7 +13604,8 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5126;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5127;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5128;
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5129;
-IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTable[5130] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5130;
+IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTable[5131] = 
 {
 	(&g_typeDefinitionSize0),
 	(&g_typeDefinitionSize1),
@@ -18734,4 +18737,5 @@ IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes* g_Il2CppTypeDefinitionSizesTabl
 	(&g_typeDefinitionSize5127),
 	(&g_typeDefinitionSize5128),
 	(&g_typeDefinitionSize5129),
+	(&g_typeDefinitionSize5130),
 };
