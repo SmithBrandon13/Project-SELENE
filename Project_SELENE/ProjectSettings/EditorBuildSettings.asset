@@ -5,11 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HoloLens1Scene.unity
     guid: 45823df0a459b07449407c50e6d97163
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: deda06e5e1b992d40873d030d120bc5a
   m_configObjects:
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 840d6fa645d7a234eb5f11d21a376421,
-      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 0}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: adbc28809140e9e4b96f6141e5ec8d70,
       type: 2}
