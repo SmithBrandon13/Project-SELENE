@@ -50,6 +50,7 @@ namespace Microsoft.MixedReality.Toolkit.Input
             return left.Equals(right);
         }
 
+        /// <inheritdoc />
         public override bool Equals(object obj)
         {
             if (ReferenceEquals(null, obj)) { return false; }
@@ -70,6 +71,7 @@ namespace Microsoft.MixedReality.Toolkit.Input
             return obj.GetHashCode();
         }
 
+        /// <inheritdoc />
         public override int GetHashCode()
         {
             unchecked

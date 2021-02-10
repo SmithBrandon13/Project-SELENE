@@ -100,7 +100,6 @@ namespace Microsoft.MixedReality.Toolkit.Utilities
 
         #region IEqualityComparer Implementation
 
-        /// <inheritdoc />
         bool IEqualityComparer.Equals(object left, object right)
         {
             if (ReferenceEquals(null, left) || ReferenceEquals(null, right)) { return false; }
@@ -120,12 +119,12 @@ namespace Microsoft.MixedReality.Toolkit.Utilities
             return obj is MixedRealityPose && Equals((MixedRealityPose)obj);
         }
 
-        /// <inheritdoc />
         int IEqualityComparer.GetHashCode(object obj)
         {
             return obj is MixedRealityPose ? ((MixedRealityPose)obj).GetHashCode() : 0;
         }
 
+        /// <inheritdoc />
         public override int GetHashCode()
         {
             return base.GetHashCode();
