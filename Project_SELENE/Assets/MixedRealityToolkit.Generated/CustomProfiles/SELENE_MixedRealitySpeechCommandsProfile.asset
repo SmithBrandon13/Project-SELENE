@@ -45,6 +45,13 @@ MonoBehaviour:
       description: Toggle Profiler
       axisConstraint: 0
   - localizationKey: 
+    keyword: Disable Indicator
+    keyCode: 0
+    action:
+      id: 0
+      description: Toggle Profiler
+      axisConstraint: 0
+  - localizationKey: 
     keyword: Enable Indicator
     keyCode: 0
     action:
@@ -52,21 +59,14 @@ MonoBehaviour:
       description: Toggle Profiler
       axisConstraint: 0
   - localizationKey: 
-    keyword: Enable Tap To Place
+    keyword: Enable Map
     keyCode: 0
     action:
       id: 0
       description: Toggle Profiler
       axisConstraint: 0
   - localizationKey: 
-    keyword: Enable Bounding Box
-    keyCode: 0
-    action:
-      id: 0
-      description: Toggle Profiler
-      axisConstraint: 0
-  - localizationKey: 
-    keyword: Disable Bounding Box
+    keyword: Disable Map
     keyCode: 0
     action:
       id: 0
