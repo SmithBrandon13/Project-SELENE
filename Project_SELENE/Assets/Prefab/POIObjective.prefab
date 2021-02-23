@@ -88,6 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1124916108246416268}
+  - component: {fileID: -3725035321429523393}
   m_Layer: 0
   m_Name: POIObjective
   m_TagString: Untagged
@@ -111,6 +112,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!362 &-3725035321429523393
+WorldAnchor:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805021865984071216}
+  serializedVersion: 2
 --- !u!1 &7455951998251774894
 GameObject:
   m_ObjectHideFlags: 0

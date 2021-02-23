@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/test2.unity
-    guid: 2b844a3eb395c2f489cf4924cfb4b9d3
+    path: Assets/Scenes/ProjectSelene.unity
+    guid: 35a687e4b8c3dbf4dad224da6744cb15
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 840d6fa645d7a234eb5f11d21a376421,
       type: 2}
