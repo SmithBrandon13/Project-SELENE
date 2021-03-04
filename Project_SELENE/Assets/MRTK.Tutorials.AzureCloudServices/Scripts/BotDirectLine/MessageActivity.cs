@@ -100,7 +100,7 @@ namespace MRTK.Tutorials.AzureCloudServices.Scripts.BotDirectLine
         {
             MessageActivity messageActivity = new MessageActivity();
             messageActivity.Id = activityJsonRootNode[BotJsonProtocol.KeyId];
-            messageActivity.Timestamp = Convert.ToDateTime(activityJsonRootNode[BotJsonProtocol.KeyTimestamp]);
+            //messageActivity.Timestamp = Convert.ToDateTime(activityJsonRootNode[BotJsonProtocol.KeyTimestamp]);
             messageActivity.ChannelId = activityJsonRootNode[BotJsonProtocol.KeyChannelId];
 
             SimpleJSON.JSONNode fromJsonRootNode = activityJsonRootNode[BotJsonProtocol.KeyFrom];

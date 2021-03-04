@@ -45,28 +45,28 @@ MonoBehaviour:
       description: Toggle Profiler
       axisConstraint: 0
   - localizationKey: 
-    keyword: Disable Indicator
+    keyword: Indicator Off
     keyCode: 0
     action:
       id: 0
       description: Toggle Profiler
       axisConstraint: 0
   - localizationKey: 
-    keyword: Enable Indicator
+    keyword: Indicator On
     keyCode: 0
     action:
       id: 0
       description: Toggle Profiler
       axisConstraint: 0
   - localizationKey: 
-    keyword: Enable Map
+    keyword: Map On
     keyCode: 0
     action:
       id: 0
       description: Toggle Profiler
       axisConstraint: 0
   - localizationKey: 
-    keyword: Disable Map
+    keyword: Map Off
     keyCode: 0
     action:
       id: 0
