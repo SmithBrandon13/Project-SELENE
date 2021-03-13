@@ -9,8 +9,10 @@ using TMPro;
 
 public class APICall3 : MonoBehaviour
 {
-    public TextMeshProUGUI testText; 
-    private string URL = "http://localhost:3000/api/simulation/state";
+    public TextMeshProUGUI heartText;
+    public TextMeshProUGUI oxyText;
+    public TextMeshProUGUI timeText;
+    private string URL = "localhost:3000/api/simulation/state";
 
 //parsing JSON data
     private string id = "";
@@ -44,7 +46,7 @@ public class APICall3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        testText.text = " ";
+        //heartText.text = " ";
         StartCoroutine(GetSuitInfo());
         
     }
@@ -101,7 +103,9 @@ public class APICall3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        testText.text = heart_bpm;
+        heartText.text = heart_bpm;
+        oxyText.text = t_oxygen;
+        timeText.text = time;
        
         
     }

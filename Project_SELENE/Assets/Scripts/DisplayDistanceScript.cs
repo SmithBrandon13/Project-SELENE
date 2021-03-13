@@ -25,4 +25,9 @@ public class DisplayDistanceScript : MonoBehaviour
         distText.text = dist.ToString() + "m";
         //print(dist);
     }
+
+    public void SetPosition()
+    {
+        transform.position = userPos.position;
+    }
 }

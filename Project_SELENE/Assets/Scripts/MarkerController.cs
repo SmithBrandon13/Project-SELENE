@@ -17,6 +17,7 @@ public class MarkerController : MonoBehaviour
     WorldAnchor anchor;
 
     // Start is called before the first frame update
+    // Tells the store to start itself.
     void Start()
     {
         WorldAnchorStore.GetAsync(StoreLoaded);
@@ -28,9 +29,11 @@ public class MarkerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             SetMarker();
+            //Runs the function.
         }
     }
 
+   //Sets a marker at the position of the user and passes real world info
     public void SetMarker()
     {
         var newMarker = Instantiate(markerPrefab, user.transform.position, Quaternion.identity);
@@ -40,6 +43,7 @@ public class MarkerController : MonoBehaviour
         var newMarkerWA = newMarker.GetComponent<WorldAnchor>();
 
         SaveGame(newMarker.name, newMarkerWA);
+        //Saves spatial anchor HoloLens
     }
 
     public void SetMarkerFromLoad(WorldAnchor thisAcnor)
@@ -64,6 +68,7 @@ public class MarkerController : MonoBehaviour
     {
         var currentStores = store.GetAllIds();
 
+        //Grab all markers in scene to be loaded and saved
         for(int i = 0; i < currentStores.Length; i++)
         {
             var loadedMarker = store.Load(currentStores[i], worldSpaceGO.gameObject).gameObject;
